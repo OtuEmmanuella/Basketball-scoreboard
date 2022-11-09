@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball score board</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">           
+</head>
+<body>
+
+  <div class="container container-flex">
+
+<!--home item-->
+
+<div class="container-wrap">
+  <div class="item-wrap">
+     <h2>Boston</h2>
+  <div class="count-container">
+     <h3 id="lakers-el">0</h3>
+  </div>
+  </div><!--/item-wrap-->
+
+  <!--home buttons-->
+
+  <div class="buttons">
+    <button class="btn" onclick="clickPlus1()">+1</button>
+    <button class="btn" onclick="clickPlus2()">+2</button>
+    <button class="btn" onclick="clickPlus3()">+3</button>
+    <button class="reset-btn" id="reset-lakers-score">Reset</button>
+  </div>
+</div><!--/container-wrap-->
+
+
+<!--guest item-->
+
+  <div class="container-wrap">
+    <div class="item-wrap">
+      <h2>trevor</h2>
+    <div class="count-container">
+      <h3 id="trevor-el">0</h3>
+   </div>
+  </div><!--/item-wrap-->
+
+  
+<!--guest buttons-->
+
+  <div class="buttons">
+    <button class="btn" onclick="clickadd1()">+1</button>
+    <button class="btn" onclick="clickadd2()">+2</button>
+    <button class="btn" onclick="clickadd3()">+3</button>
+    <button class="reset-btn" id="reset-trevor-score">Reset</button>
+    </div>
+</div><!--container-wrap-->
+
+</main><!--container container-flex-->
+
+    <!--javascript-->
+
+    <script src="script.js"></script>  
+</body>
+</html>
